@@ -8,7 +8,11 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/health", (_req, res) => {
-  res.json({ status: "ok" });
+  res.status(200).json({
+    status: "ok",
+    service: "api",
+    timestamp: new Date().toISOString(),
+  });
 });
 
 app.listen(PORT, () => {
