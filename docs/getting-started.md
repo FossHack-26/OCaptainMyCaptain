@@ -39,14 +39,14 @@ Copy `.env.example` to `.env` in the root (or into each app if you prefer) and s
 
 ## Scripts (from root)
 
-| Command        | Description                    |
-|----------------|--------------------------------|
-| `npm run dev`  | Run all workspaces that have dev |
-| `npm run dev:web` | Start Next.js frontend        |
-| `npm run dev:api`  | Start Express API            |
-| `npm run build` | Build all workspaces          |
-| `npm run lint`  | Lint all workspaces           |
-| `npm run format` | Format with Prettier         |
+| Command           | Description                      |
+| ----------------- | -------------------------------- |
+| `npm run dev`     | Run all workspaces that have dev |
+| `npm run dev:web` | Start Next.js frontend           |
+| `npm run dev:api` | Start Express API                |
+| `npm run build`   | Build all workspaces             |
+| `npm run lint`    | Lint all workspaces              |
+| `npm run format`  | Format with Prettier             |
 
 ## Project layout
 
