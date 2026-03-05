@@ -7,19 +7,23 @@ Adds a proper monorepo layout and developer tooling for FOSS Hack 2026.
 ## Changes
 
 ### Monorepo
+
 - **apps/web** — Next.js 15 app (layout + home page)
 - **apps/api** — Express + TypeScript API with `/health` and CORS
 - **packages/shared** — Shared TypeScript types (`User`, `NowPage`)
 
 ### Code quality
+
 - **ESLint 9** (flat config) + TypeScript ESLint at root; `next lint` in apps/web
 - **Prettier** for formatting (root config)
 - **Husky + lint-staged** — pre-commit runs `eslint --fix` and `prettier --write` on staged files only
 
 ### CI
+
 - **GitHub Actions** — on push/PR to `main`: install, lint, format check
 
 ### Docs & config
+
 - `docs/getting-started.md` — install, run API + web, env, scripts
 - `docs/contributing.md` — dev setup, lint/format, PR guidelines
 - `CONTRIBUTING.md` — points to docs

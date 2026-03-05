@@ -7,13 +7,7 @@ export default [
   ...tseslint.configs.recommended,
   prettier,
   {
-    ignores: [
-      "**/node_modules/**",
-      "**/dist/**",
-      "**/build/**",
-      "**/.next/**",
-      "**/out/**",
-    ],
+    ignores: ["**/node_modules/**", "**/dist/**", "**/build/**", "**/.next/**", "**/out/**"],
   },
   {
     files: ["**/*.{js,ts,jsx,tsx}"],
