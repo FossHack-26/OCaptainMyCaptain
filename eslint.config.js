@@ -12,8 +12,19 @@ export default [
   {
     files: ["**/*.{js,ts,jsx,tsx}"],
     languageOptions: {
-      parserOptions: { ecmaVersion: "latest", sourceType: "module" },
+      parserOptions: {
+        ecmaVersion: "latest",
+        sourceType: "module",
+      },
       globals: {
+        // Browser
+        window: "readonly",
+        document: "readonly",
+        requestAnimationFrame: "readonly",
+        setTimeout: "readonly",
+        clearTimeout: "readonly",
+
+        // Node
         console: "readonly",
         process: "readonly",
         Buffer: "readonly",

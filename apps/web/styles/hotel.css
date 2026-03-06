@@ -1,3 +1,13 @@
+/* ═══════════════════════════════════════════
+   O CAPTAIN — HOTEL CSS
+   Import in apps/web/styles/globals.css:
+   @import "./hotel.css";
+   Or add <link> in layout.tsx head.
+   Required fonts:
+   IM Fell English, Cormorant Garamond,
+   Special Elite, Playfair Display
+═══════════════════════════════════════════ */
+
 *,
 *::before,
 *::after {
@@ -117,15 +127,15 @@ body::after {
 }
 .hotel-eyebrow {
   font-family: "Special Elite", monospace;
-  font-size: 0.52rem;
-  letter-spacing: 0.38em;
+  font-size: 0.84rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.5);
   margin-bottom: 10px;
 }
 .hotel-name {
   font-family: "Playfair Display", serif;
-  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
   font-weight: 400;
   color: rgba(253, 248, 240, 0.92);
   letter-spacing: 0.04em;
@@ -134,7 +144,7 @@ body::after {
 .hotel-tagline {
   font-family: "IM Fell English", serif;
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: rgba(253, 248, 240, 0.3);
   margin-top: 8px;
   letter-spacing: 0.02em;
@@ -215,8 +225,8 @@ body::after {
   left: 50%;
   transform: translateX(-50%);
   font-family: "Special Elite", monospace;
-  font-size: 0.5rem;
-  letter-spacing: 0.2em;
+  font-size: 1.05rem;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.7);
   white-space: nowrap;
@@ -248,8 +258,8 @@ body::after {
   background: transparent;
   border: none;
   font-family: "Special Elite", monospace;
-  font-size: 0.52rem;
-  letter-spacing: 0.18em;
+  font-size: 0.84rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: rgba(253, 248, 240, 0.3);
   cursor: pointer;
@@ -315,8 +325,8 @@ body::after {
 
 label {
   font-family: "Special Elite", monospace;
-  font-size: 0.48rem;
-  letter-spacing: 0.22em;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.55);
 }
@@ -329,7 +339,7 @@ textarea {
   border-radius: 2px;
   padding: 10px 14px;
   font-family: "Cormorant Garamond", serif;
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: rgba(253, 248, 240, 0.85);
   outline: none;
   transition:
@@ -411,13 +421,13 @@ textarea {
 .rp-name {
   font-family: "IM Fell English", serif;
   font-style: italic;
-  font-size: 0.85rem;
+  font-size: 1.05rem;
   color: rgba(253, 248, 240, 0.75);
 }
 .rp-sub {
   font-family: "Special Elite", monospace;
-  font-size: 0.42rem;
-  letter-spacing: 0.14em;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(253, 248, 240, 0.28);
   margin-top: 3px;
@@ -447,7 +457,7 @@ textarea {
   padding: 4px 9px;
   font-family: "Cormorant Garamond", serif;
   font-style: italic;
-  font-size: 0.82rem;
+  font-size: 1.05rem;
   color: rgba(253, 248, 240, 0.65);
   animation: tagPop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
@@ -466,7 +476,7 @@ textarea {
   border: none;
   color: rgba(253, 248, 240, 0.25);
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   line-height: 1;
   padding: 0 1px;
   transition: color 0.2s;
@@ -488,8 +498,8 @@ textarea {
   padding: 10px 16px;
   cursor: pointer;
   font-family: "Special Elite", monospace;
-  font-size: 0.48rem;
-  letter-spacing: 0.14em;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.7);
   transition: all 0.2s;
@@ -515,7 +525,7 @@ textarea {
   transform: translate(-50%, -50%);
   background: #1a1208;
   padding: 0 10px;
-  font-size: 0.5rem;
+  font-size: 1.05rem;
   color: rgba(184, 134, 42, 0.3);
 }
 
@@ -530,7 +540,7 @@ textarea {
 .qotn p {
   font-family: "IM Fell English", serif;
   font-style: italic;
-  font-size: 0.88rem;
+  font-size: 1.08rem;
   color: rgba(253, 248, 240, 0.45);
   line-height: 1.7;
 }
@@ -544,8 +554,8 @@ textarea {
   border-radius: 2px;
   cursor: pointer;
   font-family: "Special Elite", monospace;
-  font-size: 0.58rem;
-  letter-spacing: 0.3em;
+  font-size: 1.1rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.8);
   transition: all 0.3s;
@@ -582,8 +592,8 @@ textarea {
 }
 .footer-label {
   font-family: "Special Elite", monospace;
-  font-size: 0.44rem;
-  letter-spacing: 0.2em;
+  font-size: 0.74rem;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.25);
 }
@@ -609,10 +619,10 @@ textarea {
   transform: translateY(-50%);
   font-family: "Cormorant Garamond", serif;
   font-style: italic;
-  font-size: 0.72rem;
+  font-size: 1rem;
   color: rgba(184, 134, 42, 0.12);
   writing-mode: vertical-rl;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.07em;
   white-space: nowrap;
   pointer-events: none;
   animation: deskRise 1.4s cubic-bezier(0.22, 1, 0.36, 1) 0.5s both;
@@ -670,8 +680,8 @@ textarea {
 }
 .hall-hotel-name {
   font-family: "Special Elite", monospace;
-  font-size: 0.52rem;
-  letter-spacing: 0.38em;
+  font-size: 0.84rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.4);
   white-space: nowrap;
@@ -954,14 +964,14 @@ textarea {
 }
 .nameplate-txt {
   font-family: "Special Elite", monospace;
-  font-size: 0.44rem;
-  letter-spacing: 0.14em;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.7);
 }
 .door-lbl {
   font-family: "IM Fell English", serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-style: italic;
   color: rgba(253, 248, 240, 0.38);
   text-align: center;
@@ -971,8 +981,8 @@ textarea {
 .door-lbl small {
   display: block;
   font-family: "Special Elite", monospace;
-  font-size: 0.44rem;
-  letter-spacing: 0.17em;
+  font-size: 0.74rem;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   opacity: 0.35;
   margin-top: 2px;
@@ -993,8 +1003,8 @@ textarea {
 }
 .booked-badge span {
   font-family: "Special Elite", monospace;
-  font-size: 0.4rem;
-  letter-spacing: 0.14em;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.8);
 }
@@ -1091,7 +1101,7 @@ textarea {
 .cdm-sub {
   font-family: "IM Fell English", serif;
   font-style: italic;
-  font-size: 0.82rem;
+  font-size: 1.05rem;
   color: rgba(253, 248, 240, 0.28);
 }
 .cdm-close {
@@ -1102,8 +1112,8 @@ textarea {
   border: none;
   cursor: pointer;
   font-family: "Special Elite", monospace;
-  font-size: 0.5rem;
-  letter-spacing: 0.2em;
+  font-size: 1.05rem;
+  letter-spacing: 0.07em;
   color: rgba(253, 248, 240, 0.22);
   text-transform: uppercase;
   transition: color 0.2s;
@@ -1119,8 +1129,8 @@ textarea {
 /* colour picker row */
 .cdm-label {
   font-family: "Special Elite", monospace;
-  font-size: 0.47rem;
-  letter-spacing: 0.22em;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.52);
   display: block;
@@ -1288,8 +1298,8 @@ textarea {
 }
 .cdm-nameplate-prev span {
   font-family: "Special Elite", monospace;
-  font-size: 0.38rem;
-  letter-spacing: 0.1em;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.75);
   white-space: nowrap;
@@ -1307,7 +1317,7 @@ textarea {
   border-radius: 2px;
   padding: 10px 13px;
   font-family: "Cormorant Garamond", serif;
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: rgba(253, 248, 240, 0.82);
   outline: none;
   transition:
@@ -1344,7 +1354,7 @@ textarea {
   transform: translate(-50%, -50%);
   background: #1a1208;
   padding: 0 8px;
-  font-size: 0.45rem;
+  font-size: 1rem;
   color: rgba(184, 134, 42, 0.28);
 }
 
@@ -1364,8 +1374,8 @@ textarea {
   padding: 10px 14px;
   cursor: pointer;
   font-family: "Special Elite", monospace;
-  font-size: 0.46rem;
-  letter-spacing: 0.12em;
+  font-size: 1rem;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.72);
   transition: all 0.2s;
@@ -1391,7 +1401,7 @@ textarea {
   padding: 3px 9px;
   font-family: "Cormorant Garamond", serif;
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: rgba(253, 248, 240, 0.6);
   animation: tagPop 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
@@ -1410,7 +1420,7 @@ textarea {
   border: none;
   cursor: pointer;
   color: rgba(253, 248, 240, 0.22);
-  font-size: 0.85rem;
+  font-size: 1.05rem;
   line-height: 1;
   padding: 0 1px;
   transition: color 0.2s;
@@ -1428,8 +1438,8 @@ textarea {
   border-radius: 2px;
   cursor: pointer;
   font-family: "Special Elite", monospace;
-  font-size: 0.56rem;
-  letter-spacing: 0.28em;
+  font-size: 1.08rem;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.82);
   transition: all 0.28s;
@@ -1583,6 +1593,30 @@ textarea {
   box-shadow:
     0 0 90px 35px var(--rwinlight),
     inset 0 0 30px rgba(255, 255, 255, 0.04);
+  animation: windowBreath 7s ease-in-out infinite;
+}
+
+/* window light pulses softly as curtains shift */
+@keyframes windowBreath {
+  0%,
+  100% {
+    box-shadow:
+      0 0 90px 35px var(--rwinlight),
+      inset 0 0 30px rgba(255, 255, 255, 0.04);
+    opacity: 1;
+  }
+  35% {
+    box-shadow:
+      0 0 110px 50px var(--rwinlight),
+      inset 0 0 40px rgba(255, 255, 255, 0.07);
+    opacity: 0.88;
+  }
+  60% {
+    box-shadow:
+      0 0 75px 28px var(--rwinlight),
+      inset 0 0 20px rgba(255, 255, 255, 0.02);
+    opacity: 0.95;
+  }
 }
 .rm-window::before {
   content: "";
@@ -1606,18 +1640,207 @@ textarea {
 .rm-curtain-r {
   position: absolute;
   top: 9%;
-  width: 40px;
-  height: 190px;
+  width: 44px;
+  height: 198px;
   background: var(--rcurtain);
-  opacity: 0.55;
+  opacity: 0.62;
+  transform-origin: top center;
+  will-change: clip-path;
+  filter: drop-shadow(2px 0 6px rgba(0, 0, 0, 0.3));
 }
+
+/* LEFT curtain — billows leftward (away from window) */
 .rm-curtain-l {
   right: calc(5% + 90px);
-  clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+  animation: curtainBillowL 6s ease-in-out infinite;
 }
+
+/* RIGHT curtain — billows rightward */
 .rm-curtain-r {
-  right: calc(5% - 40px);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+  right: calc(5% - 44px);
+  animation: curtainBillowR 6s ease-in-out infinite;
+  animation-delay: -1.8s;
+}
+
+/* ── LEFT CURTAIN BILLOW ──
+   Fabric hangs straight, then a breeze pushes the
+   bottom-left edge out, pulling the whole drape into
+   a gentle S-curve, then settles back */
+@keyframes curtainBillowL {
+  0% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 25%,
+      92% 50%,
+      96% 75%,
+      88% 100%,
+      0% 100%,
+      4% 75%,
+      2% 50%,
+      6% 25%
+    );
+  }
+  20% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      96% 25%,
+      80% 50%,
+      72% 75%,
+      60% 100%,
+      -8% 100%,
+      -4% 75%,
+      2% 50%,
+      4% 25%
+    );
+  }
+  45% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      88% 25%,
+      68% 50%,
+      60% 75%,
+      48% 100%,
+      -14% 100%,
+      -8% 75%,
+      -2% 50%,
+      2% 25%
+    );
+  }
+  65% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      96% 25%,
+      82% 50%,
+      76% 75%,
+      66% 100%,
+      -6% 100%,
+      -2% 75%,
+      2% 50%,
+      4% 25%
+    );
+  }
+  85% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 25%,
+      94% 50%,
+      98% 75%,
+      90% 100%,
+      2% 100%,
+      4% 75%,
+      2% 50%,
+      6% 25%
+    );
+  }
+  100% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 25%,
+      92% 50%,
+      96% 75%,
+      88% 100%,
+      0% 100%,
+      4% 75%,
+      2% 50%,
+      6% 25%
+    );
+  }
+}
+
+/* ── RIGHT CURTAIN BILLOW ──
+   Mirror of left — offset timing so they
+   don't move in lockstep, feels more natural */
+@keyframes curtainBillowR {
+  0% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      94% 25%,
+      98% 50%,
+      92% 75%,
+      100% 100%,
+      12% 100%,
+      4% 75%,
+      8% 50%,
+      0% 25%
+    );
+  }
+  20% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      108% 25%,
+      118% 50%,
+      128% 75%,
+      140% 100%,
+      104% 100%,
+      98% 75%,
+      100% 50%,
+      96% 25%
+    );
+  }
+  45% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      112% 25%,
+      128% 50%,
+      140% 75%,
+      152% 100%,
+      110% 100%,
+      104% 75%,
+      102% 50%,
+      98% 25%
+    );
+  }
+  65% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      108% 25%,
+      120% 50%,
+      130% 75%,
+      142% 100%,
+      106% 100%,
+      100% 75%,
+      100% 50%,
+      96% 25%
+    );
+  }
+  85% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      96% 25%,
+      100% 50%,
+      94% 75%,
+      102% 100%,
+      14% 100%,
+      6% 75%,
+      8% 50%,
+      2% 25%
+    );
+  }
+  100% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      94% 25%,
+      98% 50%,
+      92% 75%,
+      100% 100%,
+      12% 100%,
+      4% 75%,
+      8% 50%,
+      0% 25%
+    );
+  }
 }
 .rm-win-floor {
   position: absolute;
@@ -1629,6 +1852,24 @@ textarea {
   filter: blur(22px);
   opacity: 0.15;
   transform: skewX(-18deg);
+  animation: winFloorShift 6s ease-in-out infinite;
+  animation-delay: -2s;
+}
+
+@keyframes winFloorShift {
+  0%,
+  100% {
+    opacity: 0.15;
+    transform: skewX(-18deg) scaleX(1);
+  }
+  40% {
+    opacity: 0.22;
+    transform: skewX(-14deg) scaleX(1.08);
+  }
+  70% {
+    opacity: 0.1;
+    transform: skewX(-22deg) scaleX(0.94);
+  }
 }
 .rm-ceiling-light {
   position: absolute;
@@ -1967,7 +2208,7 @@ textarea {
   writing-mode: vertical-rl;
   font-family: "Cormorant Garamond", serif;
   font-style: italic;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
   color: rgba(255, 255, 255, 0.4);
   white-space: nowrap;
   overflow: hidden;
@@ -2146,21 +2387,21 @@ textarea {
 }
 .rpnow {
   font-family: "Special Elite", monospace;
-  font-size: 0.4rem;
-  letter-spacing: 0.14em;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.4);
   margin-bottom: 2px;
 }
 .rptrack {
   font-family: "IM Fell English", serif;
-  font-size: 0.78rem;
+  font-size: 1rem;
   font-style: italic;
   color: rgba(253, 248, 240, 0.72);
   line-height: 1.25;
 }
 .rpartist {
-  font-size: 0.62rem;
+  font-size: 0.92rem;
   color: rgba(253, 248, 240, 0.36);
   margin-top: 2px;
 }
@@ -2349,12 +2590,12 @@ textarea {
 }
 .room-alias-txt {
   font-family: "IM Fell English", serif;
-  font-size: clamp(1.2rem, 2.2vw, 2rem);
+  font-size: clamp(1.6rem, 2.8vw, 2.6rem);
   font-style: italic;
   color: var(--raccent);
 }
 .room-q {
-  font-size: clamp(0.72rem, 1.1vw, 0.88rem);
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
   font-style: italic;
   color: rgba(253, 248, 240, 0.38);
   max-width: 400px;
@@ -2368,8 +2609,8 @@ textarea {
   top: 1.2rem;
   left: 1.5rem;
   font-family: "Special Elite", monospace;
-  font-size: 0.55rem;
-  letter-spacing: 0.2em;
+  font-size: 1.08rem;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   color: rgba(253, 248, 240, 0.32);
   background: none;
@@ -2395,8 +2636,8 @@ textarea {
 }
 .rcp-label {
   font-family: "Special Elite", monospace;
-  font-size: 0.42rem;
-  letter-spacing: 0.18em;
+  font-size: 1rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.35);
   margin-bottom: 8px;
@@ -2409,7 +2650,7 @@ textarea {
 .rcp-item {
   font-family: "IM Fell English", serif;
   font-style: italic;
-  font-size: 0.78rem;
+  font-size: 1rem;
   color: rgba(253, 248, 240, 0.38);
   cursor: pointer;
   transition: color 0.2s;
@@ -2437,8 +2678,8 @@ textarea {
 }
 .npo-label {
   font-family: "Special Elite", monospace;
-  font-size: 0.42rem;
-  letter-spacing: 0.18em;
+  font-size: 1rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: rgba(184, 134, 42, 0.35);
   margin-bottom: 6px;
