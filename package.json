@@ -1,6 +1,7 @@
 {
   "name": "ocaptain-my-captain",
   "private": true,
+  "type": "module",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -27,15 +28,7 @@
     "typescript-eslint": "^8.15.0"
   },
   "lint-staged": {
-    "apps/web/**/*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "apps/api/**/*.{js,ts}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "packages/shared/**/*.ts": [
+    "*.{js,jsx,ts,tsx}": [
       "eslint --fix",
       "prettier --write"
     ],
